@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<h1>Application budget</h1>
+<div id="spent" class="group">
+<h2>Dépenses</h2>
+    <label for="fixedExpenses">Dépenses fixes : </label>
+    <form action="" id="fixedExpenses">
+
+        <div class="input">
+            <label for="rent">Loyer (charges comprises) : </label>
+            <input type="number" value="0" id="rent" class="spent">
+        </div>
+
+        <div class="input">
+            <label for="creditRefund">Remboursement de crédit : </label>
+            <input type="number" value="0" id="creditRefund" class="spent">
+        </div>
+
+        <div class="input">
+            <label for="energy">Factures énergétiques : </label>
+            <input type="number" value="0" id="energy" class="spent">
+        </div>
+
+        <div class="input">
+            <label for="internetBill">Factures internet et téléphonie : </label>
+            <input type="number" value="0" id="internetBill" class="spent">
+        </div>
+
+        <div class="input">
+            <label for="homeInsurance">Assurance habitation : </label>
+            <input type="number" value="0" id="homeInsurance" class="spent">
+        </div>
+
+        <div class="input">
+            <label for="carInsurance">Assurance voiture : </label>
+            <input type="number" value="0" id="carInsurance" class="spent">
+        </div>
+
+        <div class="input">
+            <label for="healthInsurance">Mutuelle : </label>
+            <input type="number" value="0" id="healthInsurance" class="spent">
+        </div>
+
+        <div class="input">
+            <label for="careExpenses">Frais de garde : </label>
+            <input type="number" value="0" id="careExpenses" class="spent">
+        </div>
+
+        <div class="input">
+            <label for="incomeTaxes">Impôts sur le revenu : </label>
+            <input type="number" value="0" id="incomeTaxes" class="spent">
+        </div>
+
+        <div class="input">
+            <label for="localTaxes">Impôts locaux</label>
+            <input type="number" value="0" id="localTaxes" class="spent">
+        </div>
+
+    </form>
+
+    <label for="currentExpenses">Dépenses courantes : </label>
+    <form action="" id="currentExpenses">
+
+        <div class="input">
+            <label for="supermarketShopping">Courses alimentaires : </label>
+            <input type="number" value="0" id="supermarketShopping" class="spent">
+        </div>
+
+        <div class="input">
+            <label for="gasoline">Essence : </label>
+            <input type="number" value="0" id="gasoline" class="spent">
+        </div>
+
+        <div class="input">
+            <label for="sportAndCulture">Frais loisir sport et culture : </label>
+            <input type="number" value="0" id="sportAndCulture" class="spent">
+        </div>
+
+
+    </form>
+
+    <label for="occasionalExpenses">Dépenses occasionnelles : </label>
+    <form action="" id="occasionalExpenses">
+
+        <div class="input">
+            <label for="outings">Sorties : </label>
+            <input type="number" value="0" id="outings" class="spent">
+        </div>
+
+        <div class="input">
+            <label for="otherSpent">Autres : </label>
+            <input type="number" value="0" id="otherSpent" class="spent">
+        </div>
+
+    </form>
+
+</div>
+
+<div id="revenues" class="group">
+<h2>Revenus</h2>
+    <label for="allRevenues">Recettes : </label>
+    <form action="" id="allRevenues">
+
+        <div class="input">
+            <label for="salary">Salaire : </label>
+            <input type="number" value="0" id="salary" class="revenues">
+        </div>
+
+        <div class="input">
+            <label for="socialAids">Aides sociales : </label>
+            <input type="number" value="0" id="socialAids" class="revenues">
+        </div>
+
+        <div class="input">
+            <label for="annuities">Rentes : </label>
+            <input type="number" value="0" id="annuities" class="revenues">
+        </div>
+
+        <div class="input">
+            <label for="otherRevenues">Autres : </label>
+            <input type="number" value="0" id="otherRevenues" class="revenues">
+        </div>
+
+    </form>
+
+</div>
+
+<div id="saving" class="group">
+<h2>Epargne</h2>
+    <form action="" id="bankSaving">
+
+        <div class="input">
+            <label for="moneySaving">Epargne : </label>
+            <input type="number" value="0" id="moneySaving" class="saving">
+        </div>
+
+    </form>
+
+</div>
+
+<div id="result" class="group">
+<button id="resultBtn">Résultat</button>
+</div>
+</body>
+<script src="assets/js/app.js"></script>
+</html>
